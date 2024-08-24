@@ -1,2 +1,2 @@
-# Paradigma-Orientado-a-Objetos-para-Desenvolvimento-de-Software
+# Paradigma Orientado a Objetos para Desenvolvimento de Software
  
