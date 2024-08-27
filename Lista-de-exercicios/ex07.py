@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 7. Composição
+# Crie uma classe `Motor` e uma classe `Carro`. A classe `Carro` deve ter um atributo do tipo `Motor`
+# e métodos para interagir com o motor.
+
 class Motor:
     def __init__(self):
         self.ligado = False

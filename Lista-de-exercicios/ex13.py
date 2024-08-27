@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 13. Tratamento de Exceções
+# Crie uma classe `Divisao` que tenha um método para dividir dois números inteiros. Lance uma
+# exceção personalizada caso ocorra divisão por zero.
+
 class DivisaoPorZeroErro(Exception):
     def __init__(self, mensagem="Divisão por zero não é permitida."):
         self.mensagem = mensagem

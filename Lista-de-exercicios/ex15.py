@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 15. Iteradores e Loops
+# Expanda o exercício anterior para permitir a iteração sobre a lista de livros utilizando um `Iterator`
+# (ou equivalente na linguagem escolhida).
+
 class Livro:
     def __init__(self, titulo):
         self.titulo = titulo

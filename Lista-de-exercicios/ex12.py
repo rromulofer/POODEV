@@ -1,5 +1,14 @@
-from enum import Enum
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
 
+# 12. Enums
+# Implemente uma enumeração `DiasDaSemana` e utilize-a em uma classe `Agenda` para marcar
+# compromissos em diferentes dias.
+
+from enum import Enum
 
 class DiasDaSemana(Enum):
     SEGUNDA = 1

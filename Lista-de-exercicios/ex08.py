@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 8. Associação e Agregação
+# Implemente uma classe `Escola` que contém uma lista de objetos da classe `Aluno`. A classe
+# `Aluno` deve ter atributos como nome, matrícula e nota.
+
 class Aluno:
     def __init__(self, nome, matricula, nota):
         self.nome = nome

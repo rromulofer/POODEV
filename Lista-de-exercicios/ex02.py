@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 2. Encapsulamento
+# Implemente uma classe `ContaBancaria` com atributos privados `saldo` e métodos públicos
+# `depositar`, `sacar` e `consultarSaldo`.
+
 class ContaBancaria:
     def __init__(self, saldo=0):
         self.__saldo = saldo

@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 10. Classes Abstratas
+# Implemente uma classe abstrata `FormaGeometrica` com um método abstrato `calcularArea()`. Crie
+# subclasses `Quadrado` e `Circulo` que implementam o método `calcularArea()`.
+
 from abc import ABC, abstractmethod
 import math
 

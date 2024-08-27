@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 14. Coleções (ArrayList ou equivalente)
+# Implemente uma classe `Biblioteca` que contém uma lista de objetos `Livro`. Adicione métodos para
+# adicionar, remover e listar livros.
+
 class Livro:
     def __init__(self, titulo):
         self.titulo = titulo

@@ -1,3 +1,13 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 16. Generics
+# Crie uma classe genérica `Caixa<T>` que pode armazenar e retornar qualquer tipo de objeto.
+# Implemente métodos para adicionar e remover itens da caixa.
+
 class Caixa:
     def __init__(self):
         self.itens = []

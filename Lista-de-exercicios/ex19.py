@@ -1,3 +1,14 @@
+#  Prof. João Luiz de Almeida Filho
+#  Disciplina : Paradigma Orientado a Objetos para Desenvolvimento de Software
+#  UENF-CCT-LCMAT-CC
+#  Data: Setembro 2024
+#  Aluno: Rômulo Souza Fernandes
+
+# 19. Desenvolvimento de um Sistema de Gestão de Funcionários
+# Desenvolva um sistema básico que permite gerenciar funcionários, incluindo funcionalidades para
+# adicionar, remover, atualizar e listar informações dos funcionários. Não utilize banco de dados;
+# armazene os dados em memória.
+
 class Funcionario:
     def __init__(self, id_funcionario, nome, cargo, salario):
         self.id_funcionario = id_funcionario
